@@ -21,6 +21,10 @@ fetch("/data.json")
       day.className = "day";
       day.textContent = item.day;
 
+      const hover = document.createElement("div");
+      day.className = "hover";
+      day.textContent = item.amount;
+
       col.append(bar, day);
       barsEl.appendChild(col);
     });

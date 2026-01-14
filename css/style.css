@@ -111,9 +111,24 @@ body {
 }
 
 .bar-col {
+  position: relative;
   display: grid;
   gap: 8px;
   justify-items: center;
+}
+
+.hover {
+  position: absolute;
+  top: -42px;
+  background: var(--text);
+  color: #fff;
+  padding: 4px 6px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.bar-col:hover .hover {
+  opacity: 1;
 }
 
 .bar {
@@ -122,6 +137,11 @@ body {
   height: var(--h);
   border-radius: 8px;
   background: var(--bar);
+  transition: opacity 0.2s ease-in-out;
+}
+.bar-col:hover .bar {
+  opacity: 0.7;
+  cursor: pointer;
 }
 .bar.active {
   background: var(--bar-active);
