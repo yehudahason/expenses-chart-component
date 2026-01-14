@@ -173,11 +173,36 @@ body {
   margin-top: 4px;
 }
 
-@media (max-width: 360px) {
-  .card {
-    padding: 22px 18px 18px;
+@media (max-width: 580px) {
+  .balance-card small {
+    font: var(--text-5-regular);
   }
-  .bars {
-    gap: 10px;
+  .balance-card .amount {
+    font: var(--text-3);
+  }
+  .logo {
+    width: 60px;
+    height: 40px;
+  }
+  .balance-card {
+    padding: 23px 22px;
+  }
+  .card {
+    padding: 24px 20px;
+  }
+  .card h2 {
+    font: var(--text-3);
+  }
+  .footer small {
+    font: var(--text-5-regular);
+  }
+  .total {
+    font: var(--text-2);
+  }
+  .delta .pct {
+    font: var(--text-5-bold);
+  }
+  .delta .from {
+    font: var(--text-5-regular);
   }
 }
