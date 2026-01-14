@@ -106,7 +106,7 @@ body {
   height: 160px;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 12px;
+  gap: 8px;
   align-items: end;
 }
 
@@ -133,7 +133,7 @@ body {
 
 .bar {
   width: 100%;
-  max-width: 44px;
+  max-width: 50px;
   height: var(--h);
   border-radius: 8px;
   background: var(--bar);
