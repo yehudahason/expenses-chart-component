@@ -28,4 +28,5 @@ fetch("/data.json")
       col.append(bar, day);
       barsEl.appendChild(col);
     });
-  });
+  })
+  .catch((error) => console.error("Error fetching data:", error));
