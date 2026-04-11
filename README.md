@@ -8,7 +8,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://yehudahason.github.io/expenses-chart-component/)
+- My solution at : [GitHub Pages](https://yehudahason.github.io/expenses-chart-component/)
 
 ## Author
 
